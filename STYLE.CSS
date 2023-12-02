@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+BODY{
+   background-image: url(main_back.jpg);
+   background-repeat: no repeat;
+   background-size: cover;
+}
+.navbar{
+    height: 4.2rem;
+    width: 100%;
+    background-color:rgb(18, 18, 62);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: fixed;
+}
+.searchbar{
+  display: flex;
+  justify-content: space-around;
+}
+.searchbar img{
+   
+    height: 1.25rem;
+    width: 1.25rem;
+}
+h1{
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold; 
+    font-size: 1.31rem;
+}
+.navlist{
+    margin-left: 1.3rem;
+}
+li{
+    display: inline-block;
+    padding-right: 3.12rem;
+    font-size: 1.12rem;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.resume{
+    height: 9.37rem;
+    width: 9.37rem;
+    background-image: url(resume1.jpg);
+    background-size: cover;
+    margin: 6.25rem;
+}
+
+a:hover{
+    color:rgb(18, 169, 119);
+    transition: 0.5s;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+}
+.rightsec{
+    width: 40%;
+   font-size: 40px;
+    color: white;
+    margin: 100px;
+   
+}
+
+.purple{
+    color: rgb(11, 230, 87);
+}
+.inside-ele {
+   
+padding-top: 100px;
+display: flex;
+justify-content: space-between;
+   
+}
+.inside-ele a {
+    animation: bouncing 0.5s ease-in infinite alternate both;
+    position: relative;
+    cursor: pointer;
+}
+.inside-ele img{
+  
+    height: 100px;
+    width: 100px;
+    
+}
+.FRONTNAME{
+    font-size: 70px;
+    font-weight: bolder;
+    margin-top: 100px;
+    height: 50px;
+    color: white;
+}
+.quote{
+    width: 350px;
+    text-transform: uppercase;
+    margin-top: 400px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 25px;
+}
+
+.SECONDPART{
+    margin: 20px 30px;
+    color: white;
+    font-size: 30px;
+}
+.worklist ul li{
+    margin-left: 50px;
+    display: block;
+    color: white;
+    font-style: italic;
+    text-decoration: dotted;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.disclaimer{
+   
+    margin: 50px 300px;
+    color: white;
+    font-size: 18px;
+
+}
+.disclaimer a img{
+    
+    height: 60px;
+    width: 60px;
+}
+.disclaimer img:hover{
+    transform: scale(1.1);
+}
+footer{
+    
+    height: 150px;
+    
+}
+.endbox{
+    display: flex;
+    
+    margin-left: 300px;
+    
+    
+   
+}
+.endlist{
+    margin-top: 20px;
+    margin-left: 200px;
+    color: rgb(43, 39, 39);
+   
+}
+.copyright{
+    margin-top: 50px;
+    margin-left: 600px;
+}
+.copyrightsym{
+   font-size: 15px;
+}
+.contactway{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    
+    
+}
+.contactway a img{
+  
+    height: 60px;
+    width: 60px;
+}
+.contactway a img:hover{
+    transform: scale(1.5);
+}
+.main_foot{
+    background-color: azure;
+    
+}
+.endlist li{
+    color: black;
+}
+@keyframes bouncing {
+    0%{
+        bottom:0;
+    }
+    100%{
+        bottom: 30px;
+    }
+    
+}
