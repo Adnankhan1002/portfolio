@@ -165,6 +165,8 @@ footer{
     display: flex;
     align-items:center;
     justify-content: space-evenly;
+    animation: lefttoright 1.5s ease infinite alternate both;
+    position: relative;
     
     
 }
@@ -191,4 +193,29 @@ footer{
         bottom: 30px;
     }
     
+}
+.welcome h1{
+    color: white;
+    font-size: 30px;
+}
+.welcome{
+    animation: lefttoright 1.5s ease-in infinite alternate both;
+    position: relative;
+    width: 100%;
+    padding-top: 100px;
+}
+@keyframes lefttoright {
+    0%{
+        margin-left: 0;
+    }
+   
+    
+    50%{
+        margin-left:  50px;
+
+    }
+    
+    100%{
+        margin-left: 100px;
+    }
 }
